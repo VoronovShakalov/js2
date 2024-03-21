@@ -1,0 +1,19 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#modal.active {
+    display: block;
+}
+
+#modal {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 50%;
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    display: none;
+}
